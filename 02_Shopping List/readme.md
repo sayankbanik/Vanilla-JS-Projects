@@ -1,6 +1,6 @@
 # 🛒 Shopping List App
 
-![Shopping List Banner](https://via.placeholder.com/1000x300?text=Shopping+List+App+Banner)
+![Shopping List Banner](https://images.pexels.com/photos/3728311/pexels-photo-3728311.jpeg?auto=compress&cs=tinysrgb&w=600)
 
 A simple and elegant **Shopping List** web application that helps you keep track of your daily grocery or item checklist. Built using **HTML**, **CSS**, and **Vanilla JavaScript**, this project is ideal for beginners looking to learn DOM manipulation, local storage, and responsive design.
 
