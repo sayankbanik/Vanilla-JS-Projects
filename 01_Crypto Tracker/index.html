@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Crypto Tracker</title>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div class="left-nav">
+        <a href="/" class="title">Crypto Tracker</a>
+      </div>
+      <div class="right-nav">
+        <a href="/" class="nav-link">Home</a>
+        <a href="/favourites/fav.html" class="nav-link">Favourites</a>
+        <div class="search-box">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" id="search" placeholder="search" />
+        </div>
+      </div>
+    </nav>
+    <main>
+      <!-- Table -->
+      <table id="crypto-table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Icon</th>
+            <th>Name</th>
+            <th>
+              Price
+              <i class="fa-solid fa-angle-up"></i>
+              <i class="fa-solid fa-angle-down"></i>
+            </th>
+            <th>
+              Volume
+              <i class="fa-solid fa-angle-up"></i>
+              <i class="fa-solid fa-angle-down"></i>
+            </th>
+            <th>
+              MarketCap
+              <i class="fa-solid fa-angle-up"></i>
+              <i class="fa-solid fa-angle-down"></i>
+            </th>
+            <th>Favourites</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- <tr>
+            <td>Lorem ipsum dolor sit amet.</td>
+            <td>Lorem ipsum dolor sit amet.</td>
+            <td>Lorem ipsum dolor sit amet.</td>
+            <td>Lorem ipsum dolor sit amet.</td>
+            <td>Lorem ipsum dolor sit amet.</td>
+            <td>Lorem ipsum dolor sit amet.</td>
+            <td>Lorem ipsum dolor sit amet.</td>
+          </tr> -->
+        </tbody>
+      </table>
+
+      <!-- Pagination Controls -->
+      <section class="pagination-controls">
+        <button id="prev-btn">Prev</button>
+        <button id="next-btn">Next</button>
+      </section>
+
+      <!-- CSS Loader -->
+    </main>
+  </body>
+</html>
